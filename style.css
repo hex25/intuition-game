@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+  .container {
+      display: flex;
+  }
+
+
+  #current-image { 
+      box-sizing: border-box;
+      width: 200px;
+      margin-right: 20px;
+      
+  }
+
+  .images {
+      width: 70px;
+      margin: 10px;
+      cursor: pointer;
+  }
+  .images:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  #images-row {
+    margin-top: 10px;
+  }
+
+  #game-info {
+      display: flex;
+      width: 455px;
+      margin: 0 auto;
+  }
+
+  #banner {
+      background-color: tomato;
+      color: lightgoldenrodyellow;
+    padding: 15px;
+    font-size: 1.2em;
+    font-family: 'Cinzel Decorative', cursive;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  #round-number {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 2em;
+    margin: 15px;
+    text-shadow: 1px 1px 2px grey;
+
+  }
+  #welcome {
+      font-size: 1.2em;
+      padding: 20px 0 10px 0;
+  }
+
+  #status, #win-message {
+      margin-top: 20px;
+  }
+  #win-message {
+      font-weight: bold;
+      font-size: 1.2em;
+  }
